@@ -767,7 +767,7 @@ class Fit(object):
             sim.init(drains)
             sim.capacitorCapacity = self.ship.getModifiedItemAttr("capacitorCapacity")
             sim.capacitorRecharge = self.ship.getModifiedItemAttr("rechargeRate")
-            sim.stagger = True
+            sim.stagger = False
             sim.scale = False
             sim.t_max = 6 * 60 * 60 * 1000
             sim.reload = self.factorReload
